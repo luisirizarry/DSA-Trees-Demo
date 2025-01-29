@@ -64,5 +64,5 @@ if __name__ == '__main__':
     root = Node("/", [users])
 
     tree = Tree(root)
-    print "server.py = ", tree.find_in_tree("server.py")  # should find
-    print "style.css = ", tree.find_in_tree("style.css")  # should not find
+    print("server.py = "), tree.find_in_tree("server.py")  # should find
+    print("style.css = "), tree.find_in_tree("style.css")  # should not find

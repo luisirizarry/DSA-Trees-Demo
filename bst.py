@@ -22,7 +22,7 @@ class BinarySearchNode(object):
 
         while current:
 
-            print "checking ", current.data
+            print("checking ", current.data)
 
             if current.data == sought:
                 return current
@@ -48,5 +48,5 @@ if __name__ == '__main__':
     nerd = BinarySearchNode("nerd", mystic, pencil)
     money = BinarySearchNode("money", jackal, nerd)
 
-    print "nerd = ", money.find("nerd")      # should find
-    print "banana = ", money.find("banana")  # shouldn't find
+    print("nerd = "), money.find("nerd")      # should find
+    print("banana = "), money.find("banana")  # shouldn't find
